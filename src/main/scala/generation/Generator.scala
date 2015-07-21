@@ -28,5 +28,9 @@ object Generator {
     data.toList
   }
 
+  def points(numPoints: Int, ranges: List[(Double, Double)]): List[List[Double]] = {
+    (0 to numPoints).map(i => ranges.map(range => scale(Random.nextDouble(), range))).toList
+  }
+
   private def scale(v: Double, range: (Double, Double)) = v * (range._2 - range._1) + range._1
 }

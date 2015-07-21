@@ -11,3 +11,5 @@ libraryDependencies += "org.apache.commons" % "commons-math3" % "3.3"
 libraryDependencies += "com.itextpdf" % "itextpdf" % "5.5.6"
 
 libraryDependencies += "com.lowagie" % "itext" % "2.1.7"
+
+libraryDependencies += "org.apache.spark" % "spark-mllib_2.11" % "1.0.0"
