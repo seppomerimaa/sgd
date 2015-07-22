@@ -12,4 +12,4 @@ libraryDependencies += "com.itextpdf" % "itextpdf" % "5.5.6"
 
 libraryDependencies += "com.lowagie" % "itext" % "2.1.7"
 
-libraryDependencies += "org.apache.spark" % "spark-mllib_2.11" % "1.0.0"
+libraryDependencies += "org.apache.spark" % "spark-mllib_2.10" % "1.0.0"
